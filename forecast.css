@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./Fonts/SFPRODISPLAYBOLD.OTF");
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./Fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./Fonts/SFPRODISPLAYREGULAR.OTF");
+}
+
+.container {
+    width: 100%;
+    height: 780px;
+    border-radius: 40px;
+    background: linear-gradient(167deg, #08244f 0%, #134cb5 47.38%, #0b42ab 100%);
+    display: flex;
+    flex-direction: column;
+}
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 47px 41px 0px;
+}
+.places {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+#places {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+#main_png {
+    width: 200px !important;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.current_temperature {
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 64px;
+    font-weight: 600;
+}
+#Precipitations {
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.min {
+    margin-left: 10px;
+}
+#PreBottom {
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 400;
+}
+#slimBox {
+    width: 81%;
+    height: 47px;
+    border-radius: 20px;
+    background: #0d3a89;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 31px;
+    padding: 0px 20px;
+}
+#main_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.wind,
+.humidity,
+.rain_posibility {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 700;
+}
+#thickBox {
+    width: 81%;
+    height: 217px;
+    border-radius: 20px;
+    background: #0d3a89;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+    padding: 12px 16px;
+}
+#headOFthickbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.today {
+    color: #fff;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 700;
+}
+.date {
+    color: #fff;
+    text-align: right;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 400;
+}
+.columnsOF_thickbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #fff;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 400;
+}
+.columns_img {
+    width: 43px;
+    height: 43px;
+}
+#thickBox_Main {
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+.bottom {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+.bottom_top {
+    display: flex;
+    justify-content: space-between;
+    width: 77%;
+}
+.next_forcast {
+    color: #fff;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nextday_Name {
+    color: #fff;
+    font-family: Alegreya Sans;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100px;
+}
+.Nextday_image {
+    width: 40px;
+    height: 40px;
+}
+.next_day {
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nextday_max {
+    color: #fff;
+    text-align: center;
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nexntday_min {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+#part2,
+#part3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    position: relative;
+}
+#search {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    z-index: 10;
+}
+#local {
+    position: absolute;
+    left: 33px;
+    top: 42px;
+    z-index: 0;
+}
